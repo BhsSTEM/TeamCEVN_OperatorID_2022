@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TeamCEVN_OperatorID_2022</string>
+    <string name="save">Save</string>
+    <string name="manage_presets">Manage Presets</string>
 </resources>
