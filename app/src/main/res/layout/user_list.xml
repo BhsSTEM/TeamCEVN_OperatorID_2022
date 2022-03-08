@@ -22,56 +22,258 @@
 
     </TableLayout>
 
-    <TableLayout
-        android:id="@+id/users"
+    <ScrollView
+        android:id="@+id/users_scroll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="151dp"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:layout_height="0dp"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TableRow
+        <TableLayout
+            android:id="@+id/users_table"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="151dp"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent">
 
-    </TableLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/user_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:width="150dp"
+                    android:height="150dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_1"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/user_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_2"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/user_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_1"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/user_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_2"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/user_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_1"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/user_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_2"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/user_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_1"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/user_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_2"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/user_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_1"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+                <Button
+                    android:id="@+id/user_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#144E16"
+                    android:fontFamily="@font/averia_libre_light"
+                    android:text="@string/user_2"
+                    android:textColor="#FCFC03"
+                    android:textSize="25sp"
+                    app:cornerRadius="30dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
 
     <TableLayout
-        android:id="@+id/buttons"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/nav_bar"
-        app:layout_constraintTop_toBottomOf="@+id/users"
-        tools:layout_editor_absoluteX="40dp">
+        app:layout_constraintTop_toBottomOf="@+id/users_scroll"
+        android:stretchColumns="*">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent">
 
             <Button
                 android:id="@+id/save"
-                android:layout_width="128dp"
-                android:layout_marginEnd="64dp"
-                android:layout_marginBottom="128dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:backgroundTint="#144E16"
                 android:fontFamily="@font/averia_libre_light"
                 android:text="@string/save"
-                android:layout_column="1"
-                android:textColor="#FFEB3B" />
+                android:textColor="#FCFC03"
+                app:cornerRadius="30dp" />
 
             <Button
                 android:id="@+id/manage_presets"
-                android:layout_width="128dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="232dp"
-                android:layout_marginBottom="128dp"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:backgroundTint="#144E16"
                 android:fontFamily="@font/averia_libre_light"
                 android:text="@string/manage_presets"
-                android:textColor="#FFEB3B"
-                android:layout_column="2" />
+                android:textColor="#FCFC03"
+                app:cornerRadius="30dp" />
 
         </TableRow>
-
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
