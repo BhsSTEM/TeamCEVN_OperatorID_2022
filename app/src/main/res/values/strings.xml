@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">TeamCEVN_OperatorID_2022</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="log_in">Log in</string>
+    <string name="string">string</string>
+    <string name="connect_with_bluetooth">Connect with Bluetooth</string>
+  
     <string name="save">Save</string>
     <string name="manage_presets">Manage Presets</string>
     <string name="user_1">Vishnu</string>
