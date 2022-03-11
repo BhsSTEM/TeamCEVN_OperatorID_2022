@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="users">
+        <item>Cole</item>
+        <item>Ethan</item>
+        <item>Vishnu</item>
+        <item>Nathan</item>
+    </string-array>
+</resources>

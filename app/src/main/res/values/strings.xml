@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">TeamCEVN_OperatorID_2022</string>
+  
     <string name="upper_sieve">Upper Sieve</string>
     <string name="rotor_speed">Rotor Speed</string>
     <string name="fan_speed">Fan Speed</string>
@@ -7,4 +8,15 @@
     <string name="_12_mph">12 mph</string>
     <string name="motor_speed">Motor Speed</string>
     <string name="save">Save</string>
+
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="log_in">Log in</string>
+    <string name="string">string</string>
+    <string name="connect_with_bluetooth">Connect with Bluetooth</string>
+  
+    <string name="save">Save</string>
+    <string name="manage_presets">Manage Presets</string>
+    <string name="user_1">Vishnu</string>
+    <string name="user_2">Nathan</string>
 </resources>
