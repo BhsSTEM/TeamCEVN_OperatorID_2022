@@ -32,6 +32,12 @@
             android:name=".UserList"
             android:exported="true">
         </activity>
+
+        <activity
+            android:name=".Ethan"
+            android:exported="true">
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
