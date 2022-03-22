@@ -9,9 +9,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      
+       
         Intent intent = new Intent(this, Test.class);
         startActivity(intent);
+        
+        // setContentView(R.layout.ethan_main);
       
         //Intent intent = new Intent(this, Login.class);
         //startActivity(intent);
