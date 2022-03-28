@@ -3,25 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher3_background.xml" value="0.196" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher3_foreground.xml" value="0.196" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3295" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3295" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/font/averia_libre_light.xml" value="0.2625" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_home_screen.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.1" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/ethan_main.xml" value="0.1911231884057971" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/login.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/test.xml" value="0.23143115942028986" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_list.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3295" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/xml/ethan_main.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.11354166666666667" />
         <entry key="..\:/Users/vishn/StudioProjects/OperatorID/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/vishn/StudioProjects/OperatorID/app/src/main/res/layout/user_list.xml" value="0.536" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
