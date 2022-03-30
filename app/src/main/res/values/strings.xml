@@ -18,4 +18,7 @@
     <string name="manage_presets">Manage Presets</string>
     <string name="user_1">Vishnu</string>
     <string name="user_2">Nathan</string>
+    <string name="profile">profile</string>
+    <string name="map">map</string>
+    <string name="settings">settings</string>
 </resources>
