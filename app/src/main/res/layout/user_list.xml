@@ -288,8 +288,8 @@
             android:layout_marginTop="8dp"
             android:contentDescription="@string/map"
             android:onClick="map"
-            android:src="@drawable/pin"
-            app:srcCompat="@drawable/pin" />
+            android:src="@drawable/ic_pin_filled"
+            app:srcCompat="@drawable/ic_pin_filled" />
 
         <ImageView
             android:layout_width="48dp"
