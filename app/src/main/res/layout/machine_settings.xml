@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fcfc03"
     android:fadingEdge="horizontal|vertical"
-    android:fadingEdgeLength="10dp">
+    android:fadingEdgeLength="10dp"
+    tools:context=".MachineSettings">
 
     <EditText
         android:id="@+id/MotorSpeed"
@@ -215,5 +215,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/LowerSieve"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

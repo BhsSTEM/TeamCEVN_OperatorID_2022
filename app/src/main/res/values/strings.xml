@@ -26,4 +26,7 @@
     <string name="title_activity_home_screen">Home_Screen</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="buddon" />
+    <string name="profile">profile</string>
+    <string name="map">map</string>
+    <string name="settings">settings</string>
 </resources>

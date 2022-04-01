@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class UserList extends AppCompatActivity {
+public class MachineSettings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.user_list);
+        setContentView(R.layout.machine_settings);
     }
 
     public void profile(View view){

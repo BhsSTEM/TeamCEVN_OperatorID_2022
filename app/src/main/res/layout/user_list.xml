@@ -8,20 +8,6 @@
     android:backgroundTint="#1A601D"
     tools:context=".UserList">
 
-    <TableLayout
-        android:id="@+id/nav_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_column="1"
-        android:layout_marginTop="800dp"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </TableLayout>
-
     <ScrollView
         android:id="@+id/users_scroll"
         android:layout_width="match_parent"
@@ -191,46 +177,6 @@
                     android:textColor="#FCFC03"
                     android:textSize="25sp"
                     app:cornerRadius="30dp" />
-
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:stretchColumns="*">
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        app:layout_constraintEnd_toEndOf="parent">
-
-                        <Button
-                            android:id="@+id/save"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_column="0"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:backgroundTint="#144E16"
-                            android:fontFamily="@font/averia_libre_light"
-                            android:text="@string/save"
-                            android:textColor="#FCFC03"
-                            app:cornerRadius="30dp" />
-
-                        <Button
-                            android:id="@+id/manage_presets"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:backgroundTint="#144E16"
-                            android:fontFamily="@font/averia_libre_light"
-                            android:text="@string/manage_presets"
-                            android:textColor="#FCFC03"
-                            app:cornerRadius="30dp" />
-
-                    </TableRow>
-                </TableLayout>
-
             </TableRow>
 
             <TableRow
@@ -273,5 +219,45 @@
 
         </TableLayout>
     </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/users_scroll"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#144E16"
+                android:fontFamily="@font/averia_libre_light"
+                android:text="@string/save"
+                android:textColor="#FCFC03"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/manage_presets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#144E16"
+                android:fontFamily="@font/averia_libre_light"
+                android:text="@string/manage_presets"
+                android:textColor="#FCFC03"
+                app:cornerRadius="30dp" />
+
+        </TableRow>
+    </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

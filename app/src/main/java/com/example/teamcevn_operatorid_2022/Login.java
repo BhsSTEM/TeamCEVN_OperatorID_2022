@@ -1,7 +1,9 @@
 package com.example.teamcevn_operatorid_2022;
 
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,7 +37,7 @@ public class Login extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
     }
-    
+
 
     private void updateUI(FirebaseUser user) {
         if(user != null) {
@@ -152,5 +154,18 @@ public class Login extends AppCompatActivity {
                 Toast.makeText(Login.this, "Please enter the email you used to sign up", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    public void profile(View view){
+        startActivity(new Intent(this, UserList.class));
+    }
+
+    public void map(View view){
+        // TODO Needs map class
+//        startActivity(new Intent(this, ));
+    }
+
+    public void settings(View view){
+        startActivity(new Intent(this, MachineSettings.class));
     }
 }
