@@ -1,15 +1,21 @@
 package com.example.teamcevn_operatorid_2022;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.teamcevn_operatorid_2022.databinding.ActivityMapsBinding;
 
@@ -53,5 +59,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.getUiSettings().setZoomControlsEnabled(true);
         mMap.getUiSettings().setZoomGesturesEnabled(true);
         mMap.getUiSettings().setCompassEnabled(true);
+
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(@NonNull LatLng latLng) {
+                Log.i("Blah", "");
+            }
+        });
     }
 }
