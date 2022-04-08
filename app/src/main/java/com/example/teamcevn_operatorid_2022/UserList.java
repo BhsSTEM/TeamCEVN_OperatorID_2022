@@ -30,7 +30,6 @@ public class UserList extends AppCompatActivity implements NavigationBarView.OnI
         Log.i("Item Title: ", (String) item.getTitle());
         if ("Profile".contentEquals(title)) {
             startActivity(new Intent(this, UserList.class));
-            nav_bar.setSelectedItemId(item.getItemId());
         } else if ("Pin".contentEquals(title)) {
             startActivity(new Intent(this, MapsActivity.class));
         } else if ("Setting".contentEquals(title)) {
