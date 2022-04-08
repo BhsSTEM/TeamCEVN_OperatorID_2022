@@ -3,23 +3,32 @@ package com.example.teamcevn_operatorid_2022;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
+import com.google.common.collect.Maps;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.auth.User;
 
-public class Login extends AppCompatActivity {
+public class Login extends AppCompatActivity implements NavigationBarView.OnItemSelectedListener{
     private static final String TAG = "Login";
     private FirebaseAuth mAuth;
 
+    BottomNavigationView nav_bar;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
@@ -28,7 +37,24 @@ public class Login extends AppCompatActivity {
         clickLogin();
         clickSignup();
         clickReset();
+
+        nav_bar = findViewById(R.id.bottom_navigation);
+        nav_bar.setOnItemSelectedListener(this);
     }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        CharSequence title = item.getTitle();
+        if ("Profile".contentEquals(title)) {
+            startActivity(new Intent(this, UserList.class));
+        } else if ("Pin".contentEquals(title)) {
+            startActivity(new Intent(this, MapsActivity.class));
+        } else if ("Setting".contentEquals(title)) {
+            startActivity(new Intent(this, MachineSettings.class));
+        }
+        return false;
+    }
+
 
     @Override
     public void onStart() {
