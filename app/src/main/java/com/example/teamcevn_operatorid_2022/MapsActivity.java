@@ -69,7 +69,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.getUiSettings().setCompassEnabled(true);
 
         mMap.setOnMarkerClickListener(marker -> {
-            Log.i("Blah", "blah");
+            marker.showInfoWindow();
             return false;
         });
     }
