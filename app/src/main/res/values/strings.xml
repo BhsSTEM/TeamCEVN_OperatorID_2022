@@ -8,6 +8,7 @@
     <string name="_12_mph">12 mph</string>
     <string name="motor_speed">Motor Speed</string>
     <string name="save">Save</string>
+    <string name="ground_speed">Ground Speed</string>
 
     <string name="password">password</string>
     <string name="username">username</string>
@@ -23,4 +24,11 @@
     <string name="email">email</string>
     <string name="forgot_password">forgot_password</string>
     <string name="sign_up">sign_up</string>
+    <string name="person">Person</string>
+    <string name="button">Button</string>
+    <string-array name="spinnerItems">
+        <item>Manager Permissions</item>
+        <item>Operator Permissions</item>
+        <item>Custom Permissions</item>
+    </string-array>
 </resources>
