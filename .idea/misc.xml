@@ -3,12 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.11354166666666667" />
-        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.2" />
-        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/login.xml" value="0.152" />
-        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/machine_settings.xml" value="0.11302083333333333" />
-        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_list.xml" value="0.1160081053698075" />
         <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/background1.xml" value="0.1915" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/background2.xml" value="0.1915" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/background3.xml" value="0.1915" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/checkpoint.xml" value="0.174" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/gradientlist.xml" value="0.1915" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1915" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.174" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher3_background.xml" value="0.174" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/insta_gradient.xml" value="0.152" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/pin_icon.xml" value="0.1" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/setting_icon.xml" value="0.1" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/tractor_background.xml" value="0.1" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/login.xml" value="0.2" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/machine_settings.xml" value="0.176" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/maps_activity.xml" value="0.12" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_list.xml" value="0.2" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/mipmap-anydpi-v26/tractor.xml" value="0.1" />
+        <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/mipmap-anydpi-v26/tractor_round.xml" value="0.1" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2295" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1265" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/nav_color_selected.xml" value="0.1075" />
@@ -40,7 +54,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2782559117526872" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

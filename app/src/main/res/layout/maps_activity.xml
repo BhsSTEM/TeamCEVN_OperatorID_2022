@@ -8,8 +8,8 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="412dp"
-        android:layout_height="537dp"
+        android:layout_width="match_parent"
+        android:layout_height="682dp"
         app:cameraTilt="30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,7 +17,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038"
         app:uiRotateGestures="true"
-        app:uiZoomControls="true" />
+        app:uiZoomControls="true"
+        tools:layout="@layout/maps_activity" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

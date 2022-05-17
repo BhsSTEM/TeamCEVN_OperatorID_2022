@@ -20,7 +20,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/fan_speed"/>
+        android:text="@string/fan_speed" />
 
     <EditText
         android:id="@+id/MotorSpeed"
@@ -93,7 +93,7 @@
         android:fontFamily="@font/brawler"
         android:text="@string/save"
         android:textColor="#fcfc03"
-        android:textSize="34sp"/>
+        android:textSize="34sp" />
 
     <EditText
         android:id="@+id/editTextNumber2"
@@ -115,7 +115,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
-        android:text="@string/_12_mph"/>
+        android:text="@string/_12_mph" />
 
     <EditText
         android:id="@+id/editTextNumber5"
@@ -126,7 +126,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
-        android:text="@string/_12_mph"/>
+        android:text="@string/_12_mph" />
 
     <EditText
         android:id="@+id/editTextNumber6"
