@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:fadingEdge="horizontal|vertical"
     android:fadingEdgeLength="10dp"
-    tools:context=".MachineSettings">
-
+    tools:context=".OperatorSettings">
 
     <EditText
         android:id="@+id/FanSpeed"
@@ -24,7 +23,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/fan_speed" />
+        android:text="Seat Height" />
 
     <EditText
         android:id="@+id/RotorSpeed"
@@ -41,7 +40,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/rotor_speed" />
+        android:text="Seat Position" />
 
     <EditText
         android:id="@+id/UpperSieve"
@@ -58,7 +57,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/upper_sieve" />
+        android:text="Light Configuration" />
 
     <EditText
         android:id="@+id/LowerSieve"
@@ -75,7 +74,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/lower_sieve" />
+        android:text="Radio" />
 
     <EditText
         android:id="@+id/MotorSpeed"
@@ -92,7 +91,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:outlineProvider="none"
-        android:text="@string/motor_speed" />
+        android:text="Display Brightness" />
 
     <EditText
         android:id="@+id/GroundSpeed"
@@ -162,7 +161,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="3 in" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -178,7 +177,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="5 in" />
 
     <EditText
         android:id="@+id/editTextNumber6"
@@ -194,7 +193,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="50% Dim" />
 
     <EditText
         android:id="@+id/editTextNumber7"
@@ -210,7 +209,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="103.7 FM" />
 
     <EditText
         android:id="@+id/editTextNumber8"
@@ -226,7 +225,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="75%" />
 
     <EditText
         android:id="@+id/editTextNumber9"
@@ -242,7 +241,7 @@
         android:fontFamily="@font/averia_libre_light"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="@string/_12_mph" />
+        android:text="@string/_12_mph"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -252,7 +251,10 @@
         android:background="?android:attr/windowBackground"
         app:itemIconTint="@drawable/nav_color_selected"
         app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/bottom_nav_bar" />
+        app:menu="@menu/bottom_nav_bar"
+        />
+
+
 
 
 </RelativeLayout>

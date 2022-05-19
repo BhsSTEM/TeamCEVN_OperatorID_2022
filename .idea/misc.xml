@@ -3,12 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.25" />
         <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.2" />
         <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/login.xml" value="0.152" />
         <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/machine_settings.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/jolde/StudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_list.xml" value="0.1160081053698075" />
-        <entry key="..\:/Users/ejold/AndroidStudioProjects/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/checkpoint.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher3_background.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher3_foreground.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_pin_filled.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_pin_outline.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_profile_filled.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_profile_outline.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_setting_filled.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/ic_setting_outline.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/nav_color_selected.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/profile_icon.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/drawable/setting_icon.xml" value="0.125" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/font/averia_libre_light.xml" value="0.21434599156118145" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/font/brawler.xml" value="0.21434599156118145" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_map_screen.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/activity_maps.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/login.xml" value="0.152" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/machine_settings.xml" value="0.2" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/maps_activity.xml" value="0.1" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/operator_settings.xml" value="0.2" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_list.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/layout/user_stats.xml" value="0.1" />
+        <entry key="..\:/Users/nrtil/OneDrive/NathanData/TeamCEVN_OperatorID_2022/app/src/main/res/menu/bottom_nav_bar.xml" value="0.14914529914529914" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2295" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1265" />
         <entry key="..\:/Users/vishn/StudioProjects/CSAcademy/app/src/main/res/drawable/nav_color_selected.xml" value="0.1075" />
