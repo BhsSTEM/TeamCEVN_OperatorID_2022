@@ -2,16 +2,20 @@ package com.example.teamcevn_operatorid_2022;
 
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -31,15 +35,14 @@ public class Login extends AppCompatActivity implements NavigationBarView.OnItem
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-
         mAuth = FirebaseAuth.getInstance();
 
         clickLogin();
         clickSignup();
         clickReset();
 
-        nav_bar = findViewById(R.id.bottom_navigation);
-        nav_bar.setOnItemSelectedListener(this);
+        //nav_bar = findViewById(R.id.bottom_navigation);
+        //nav_bar.setOnItemSelectedListener(this);
     }
 
     @Override
@@ -102,9 +105,9 @@ public class Login extends AppCompatActivity implements NavigationBarView.OnItem
                 });
     }
 
-    private void clickSignup() {
-        final Button button = findViewById(R.id.signup);
-        button.setOnClickListener(v -> {
+      private void clickSignup() {
+        final TextView signUp = findViewById(R.id.signup);
+        signUp.setOnClickListener(v -> {
             try {
                 final String email = ((EditText) findViewById(R.id.email)).getText().toString();
                 final String password = ((EditText) findViewById(R.id.password)).getText().toString();
@@ -142,12 +145,13 @@ public class Login extends AppCompatActivity implements NavigationBarView.OnItem
     }
 
     private void clickLogin() {
-        final Button button = findViewById(R.id.login);
+        final Button button = findViewById(R.id.loginbtn);
         button.setOnClickListener(v -> {
             try {
                 final String email = ((EditText) findViewById(R.id.email)).getText().toString();
                 final String password = ((EditText) findViewById(R.id.password)).getText().toString();
                 signIn(email, password);
+                startActivity(new Intent(this, MapsActivity.class));
             } catch (IllegalArgumentException ex) {
                 Toast.makeText(Login.this, "Log in failed: email or password empty", Toast.LENGTH_SHORT).show();
             }
@@ -171,7 +175,7 @@ public class Login extends AppCompatActivity implements NavigationBarView.OnItem
     }
 
     private void clickReset() {
-        Button button = findViewById(R.id.forgot_password);
+        TextView button = findViewById(R.id.forgotpass);
         button.setOnClickListener(v -> {
             try {
                 String email = ((EditText)findViewById(R.id.email)).getText().toString();
