@@ -1,5 +1,4 @@
 package com.example.teamcevn_operatorid_2022;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
