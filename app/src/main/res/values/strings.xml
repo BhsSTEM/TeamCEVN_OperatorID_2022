@@ -27,9 +27,10 @@
     <string name="sign_up">sign_up</string>
     <string name="person">Person</string>
     <string name="button">Button</string>
+    <string name="machine_spinner">Permissions</string>
     <string-array name="spinnerItems">
-        <item>Manager Permissions</item>
-        <item>Operator Permissions</item>
-        <item>Custom Permissions</item>
+        <item>Manager</item>
+        <item>Operator</item>
+        <item>Custom</item>
     </string-array>
 </resources>
